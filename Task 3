@@ -35,4 +35,31 @@ console.log(helloWorld('id'));
 console.log(helloWorld('sw'));
 console.log(helloWorld('en'));
 
-//
+//Grade Assigner
+function assignGrade(score){
+  if(100>=score>=80){
+    console.log ('A');
+  }
+  else if(score>60){
+    console.log('B');
+  }
+  else if(score>=40){
+    console.log('C');
+  }
+  else if(score>=20){
+    console.log('D');
+  }
+  else{
+    console.log('F');
+  }
+  
+}
+
+console.log(assignGrade(87));
+console.log(assignGrade(21));
+console.log(assignGrade(45));
+console.log(assignGrade(77));
+
+//The Pluralizer
+
+
