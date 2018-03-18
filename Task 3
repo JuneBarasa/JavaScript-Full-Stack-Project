@@ -1,0 +1,38 @@
+//Greater Number
+
+function greatNum(num1, num2){
+  
+  if(num1>num2){
+    console.log(num1);
+  }
+  
+  else{
+    console.log(num2);
+  }
+}
+
+console.log(greatNum(30, 16));
+
+
+
+//The World Translator
+
+function helloWorld(language){
+  if (language=='id'){
+    console.log('Halo Dunia');
+  }
+  
+  else if(language=='sw'){
+    console.log('Habari Dunia');
+  }
+  
+  else{
+    console.log('Hello World');
+  }
+}
+
+console.log(helloWorld('id'));
+console.log(helloWorld('sw'));
+console.log(helloWorld('en'));
+
+//
