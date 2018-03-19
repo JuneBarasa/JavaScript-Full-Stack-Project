@@ -62,4 +62,20 @@ console.log(assignGrade(77));
 
 //The Pluralizer
 
+function pluralize(noun, number){
+  if (noun !=='sheep' && noun !=='geese' && number!=1){
+    console.log( number + ' ' + noun + 's' );
+  }
+  
+  else{
+    console.log ( number + noun);
+  }
+  
+}
+
+console.log(pluralize( 'table', 10));
+console.log(pluralize( 'rat', 1));
+console.log(pluralize( 'tree', 17));
+console.log(pluralize( 'sheep', 56));
+console.log(pluralize( 'geese', 43));
 
