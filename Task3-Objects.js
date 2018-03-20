@@ -33,14 +33,14 @@ let library = [
   alreadyRead: true
 }];
 
-for (let i = 0; i < books.length; i++){
-  var book = books[i];
-  var bookLog = book.title +' by ' + book.author;
+for (var i = 0; i < library.length; i++){
+  var lib = library[i];
+  var libraryLog = lib.title +' by ' + lib.author;
 }
 
-if(books.alreadyRead){
- console.log( 'You already read ' + bookLog);
+if(lib.alreadyRead){
+ console.log( 'You already read ' +  libraryLog);
 }
 else {
-  console.log ( 'You still need to read' + bookLog);
+  console.log ( 'You still need to read' + libraryLog);
 }
