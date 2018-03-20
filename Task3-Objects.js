@@ -14,33 +14,33 @@ for( var i = 0; i<recipe.ingredients.length; i++){
   console.log(recipe.ingredients[i]);
 }
 
-//The Reading List
+//The Reading List... Displays what you have already read and what you are yet to read from your library.
 
-let books=[
+let library = [
   {
   title: 'The Fault in our Stars',
   author: 'John Green',
-  alreadyRead: true,
+  alreadyRead: true
 },
 {
   title: 'Paper Towns',
   author: 'John Green',
-  alreadyRead: false,
+  alreadyRead: false
 },
 {
   title: 'Caught',
   author: 'Harlan Coben',
-  alreadyRead: true,
+  alreadyRead: true
 }];
 
-for (let i=0; i<books.length; i++){
+for (let i = 0; i < books.length; i++){
   var book = books[i];
   var bookLog = book.title +' by ' + book.author;
 }
 
 if(books.alreadyRead){
- console.log( 'You already read ' + log);
+ console.log( 'You already read ' + bookLog);
 }
 else {
-  console.log ( 'You still need to read' + log);
+  console.log ( 'You still need to read' + bookLog);
 }
